@@ -6,7 +6,14 @@ $query1="SELECT * FROM stores";
  $result = mysqli_query($conn,$query);
  $result1= mysqli_query($conn,$query1);
 
- echo "<table border ='1'>";
+ echo "<table class='table'  border ='1'>";
+  echo "<thead class="thead-dark">";
+     echo"<tr>";
+   echo"<th scope='col'>ID</th>";
+   echo"<th scope='col'>NAME</th>";
+   echo"<th scope='col'>ADDRESS</th>";
+   echo"</tr>";
+   echo"</thead>";
 echo "<tbody>";
  while ($row = mysqli_fetch_assoc($result)) {
     echo "<tr scope='row'>";
