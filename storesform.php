@@ -9,16 +9,22 @@
 <body>
 
 	<form action="addstores.php" method="post">
-		
-		ID: <input type="text" name="id"> </br>
-		id_stores: <input type="text" name="id_stores"> </br>
-		name: <input type="text" name="name"> </br>
-        original_price: <input type="text" name="original_price"> </br>
-		discount_prince: <input type="text" name="discount_prince"> </br>
-		image: <input type="text" name="image"> </br>
+	    <label for="exampleInputEmail1">ID</label>
+		 <input class="form-group" type="text" name="id"> </br>
+		<label for="exampleInputEmail1">id_stores: </label>
+		 <input class="form-group" type="text" name="id_stores"> </br>
+	 <label for="exampleInputEmail1">	name:</label>
+	  <input class="form-group" type="text" name="name"> </br>
+        <label for="exampleInputEmail1">original_price:</label> 
+		<input class="form-group" type="text" name="original_price"> </br>
+		 <label for="exampleInputEmail1">discount_prince:</label>
+		  <input class="form-group"  type="text" name="discount_prince"> </br>
+	 <label for="exampleInputEmail1">	image:</label> 
+	 <input class="form-group" type="text" name="image"> </br>
 
 
-		<input type="submit" name="submit" value="Save stores" />
+		<!-- <input type="submit" name="submit" value="Save stores" /> -->
+		<button type="button" class="btn btn-primary">Save stores</button>
 
 
    
