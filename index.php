@@ -18,20 +18,9 @@ $query1="SELECT * FROM stores";
  $result = mysqli_query($conn,$query);
  $result1= mysqli_query($conn,$query1);
 
-<<<<<<< HEAD
  echo "<table border ='1' class='table'>";
 
 echo "<thead class='thead-black'>";
-=======
- echo "<table class='table'  border ='1'>";
-  echo "<thead class="thead-dark">";
-     echo"<tr>";
-   echo"<th scope='col'>ID</th>";
-   echo"<th scope='col'>NAME</th>";
-   echo"<th scope='col'>ADDRESS</th>";
-   echo"</tr>";
-   echo"</thead>";
->>>>>>> c1a3c7a3788bfe0597eae340ec8d55bbf020ce40
 echo "<tbody>";
 echo "<th scope='col'>ID</th>";
 echo "<th scope='col'>NAME</th>";
